@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee Tag</title>
+</head>
+<body>
+    <center><h1>Marquee Tag..</h1></center><h1>
+    <hr>
+    <marquee bgcolor="pink">This is marquee tag</marquee>   
+     <hr>
+
+
+    <marquee bgcolor="pink"><a href=""> This marquee tag</a></marquee>
+    <!--<marquee direction="Right"><h2>This is marquee tag</h2></marquee>-->
+    <hr>
+    <marquee bgcolor="pink" behavior="alternate">This marquee tag</marquee>
+    <hr>
+
+    <marquee bgcolor="pink" behavior="scroll"> This marquee tag</marquee>
+    <hr>
+
+    <marquee bgcolor="pink" behavior="slide">This marquee tag</marquee>
+    <hr>
+    <marquee direction="Right" bgcolor="pink">This is marquee tag</marquee>
+    <hr>
+
+    <marquee direction="left" bgcolor="pink">This is marquee tag</marquee>
+    <hr>
+
+    <marquee direction="up" bgcolor="pink">This is marquee tag</marquee>
+    <hr>
+
+    <marquee direction="down" bgcolor="pink">This is marquee tag</marquee>
+    <hr>
+    
+    <marquee bgcolor="pink" scrollamount="20">This is marquee tag</marquee>
+    <hr>
+    <marquee bgcolor="pink" scrollamount="200">This is marquee tag</marquee>
+    <hr>
+
+    <h2>Scripting</h2>
+    <marquee bgcolor="pink" scrollamount="20" id="test" ><h2>This is marquee tag</h2></marquee>
+        <script>
+            document.getElementById("test").onmouseover = function(){
+                document.getElementById("test").stop();
+            }
+            document.getElementById("test").onmouseleave = function(){
+                document.getElementById("test").start();
+            }
+        </script>
+</body>
+</html>
