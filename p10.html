@@ -1,11 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Row span</title>
 </head>
 <body>
-    
+        <center><h1>Row Span</h1></center>
+    <hr>
+    <table border="2px" cellpadding="20px" cellspacing="20px">
+        <tr><th>#</th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        </tr>
+
+        <tr><th>Name</th>
+        <td>Prithviraj</td>
+        <td>Amogh</td>
+        <td>Manju</td>
+        <td>prajwal</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Mobile</th>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+            <td rowspan="2">400</td>       
+         </tr>
+         <tr>
+           
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+            <!-- <td>400</td> -->
+         </tr>
+
+    </table>
 </body>
 </html>
